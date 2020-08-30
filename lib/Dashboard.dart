@@ -4,9 +4,9 @@ import 'package:testapp/main.dart';
 import './Login.dart';
 
 class Dashboard extends StatefulWidget {
-  //final FirebaseUser user;
+  final FirebaseUser user;
 
-  //Dashboard({Key key, this.user}) : super(key: key);
+  Dashboard({Key key, this.user}) : super(key: key);
   DashboardState createState() => DashboardState();
 }
 
@@ -28,9 +28,9 @@ class DashboardState extends State<Dashboard> {
               mainAxisAlignment: MainAxisAlignment.center,
              crossAxisAlignment: CrossAxisAlignment.center,
               children: [
-        //   Text("Name: ${widget.user.diplayName} ",style: TextStyle(fontSize: 30, fontWeight: FontWeight.w500),),
+          Text("Name: ${widget.user.diplayName} ",style: TextStyle(fontSize: 30, fontWeight: FontWeight.w500),),
             Text(""),
-           // Text("Email: ${widget.user.email}",style: TextStyle(fontSize: 30, fontWeight: FontWeight.w500),),
+           Text("Email: ${widget.user.email}",style: TextStyle(fontSize: 30, fontWeight: FontWeight.w500),),
           ],),),
           Container(
             height: 200,
