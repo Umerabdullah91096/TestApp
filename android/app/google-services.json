@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1050337489154",
+    "firebase_url": "https://signin-bb16f.firebaseio.com",
+    "project_id": "signin-bb16f",
+    "storage_bucket": "signin-bb16f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1050337489154:android:71dee01b4c4a245aa2d21b",
+        "android_client_info": {
+          "package_name": "com.example.testapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1050337489154-8394lupi3bc3ukq4v8klmatvv9q6dm1d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYeWcCNKwls8R5xC7noPbNo_DN4-2HNY0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1050337489154-8394lupi3bc3ukq4v8klmatvv9q6dm1d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
