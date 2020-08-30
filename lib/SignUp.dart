@@ -135,7 +135,7 @@ class SignUp extends StatefulWidget {
             ],),
           ),
           Container(height: 100,alignment: Alignment.bottomCenter,
-          child: RaisedButton(onPressed: (){},child:Text("SignUp")),)
+          child: RaisedButton(onPressed: signUp,child:Text("SignUp")),)
                       ],
                     ),
                   ),     
@@ -143,16 +143,16 @@ class SignUp extends StatefulWidget {
       ),
     );
   }
-  // Future<void> signUp() async {
-  //   if(formKey.currentState.validate()){
-  //     formKey.currentState.save();
-  //     try{
-  //       FirebaseUser user = await FirebaseAuth.instance.createUserWithEmailAndPassword (email: email, password: password);
+  Future<void> signUp() async {
+    if(formKey.currentState.validate()){
+      formKey.currentState.save();
+      try{
+        FirebaseUser user = await FirebaseAuth.instance.createUserWithEmailAndPassword (email: email, password: password);
       
         
-  //     }catch(e){
-  //       print(e.message);
-  //     }
-  //   }
-  // }}
- }
+      }catch(e){
+        print(e.message);
+      }
+    }
+  }}
+ 
